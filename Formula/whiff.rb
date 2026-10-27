@@ -3,28 +3,28 @@
 class Whiff < Formula
   desc "Describe any file as one JSON document for people and LLMs"
   homepage "https://github.com/baoulo/whiff"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/baoulo/whiff/releases/download/v#{version}/whiff-v#{version}-macos-aarch64.tar.gz"
-      sha256 "251c17bd3642d264f15735d9f54a12215a37f3bd347eb25605cc18ba1d4a4b36"
+      sha256 "fe00734be4d0c443bf891c5dbfb35077e3e9f9bcf1ff144e0ec6afbcde88a08f"
     end
     on_intel do
       url "https://github.com/baoulo/whiff/releases/download/v#{version}/whiff-v#{version}-macos-x86_64.tar.gz"
-      sha256 "ae09b381f70f06b06c7a8ecfccb692a985c63d02b57edf5682b09c006da618b4"
+      sha256 "afffd46a09fdcf9a9e79b8836ba281c0ab674ace0b1b80738dda21520eb1577b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/baoulo/whiff/releases/download/v#{version}/whiff-v#{version}-linux-aarch64.tar.gz"
-      sha256 "c8485a7089613108a84af113d935c6aa8c427101b3ddeb4ca519c0f9a9e09ca0"
+      sha256 "740197ae675852b8a7fa60e6725c184c7e9ca6a162f77257f5dbdaf869fb291c"
     end
     on_intel do
       url "https://github.com/baoulo/whiff/releases/download/v#{version}/whiff-v#{version}-linux-x86_64.tar.gz"
-      sha256 "b8727b2632622e152500e0373f6b43d7a329a56d376bef1869b2e101486a7815"
+      sha256 "98d632d7d740c95443882fa130433d0eca4615d089017530fbb6978d6dc896c0"
     end
   end
 
