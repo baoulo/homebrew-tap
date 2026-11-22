@@ -10,22 +10,22 @@ class Sastri < Formula
   on_macos do
     on_arm do
       url "https://github.com/baoulo/sastri/releases/download/v#{version}/sastri-v#{version}-macos-aarch64.tar.gz"
-      sha256 "5c59f54f286feeddd737f6a111364d65ad9f501d10e3e036689cb80bd3586494"
+      sha256 "9333870cb16b5993afd60d974a3cc9c7c14cf52661c7f2fc66795a4f3e89da34"
     end
     on_intel do
       url "https://github.com/baoulo/sastri/releases/download/v#{version}/sastri-v#{version}-macos-x86_64.tar.gz"
-      sha256 "eef12736084da4dee168d4e47d6dba5b7962b289f266b77383d387a6f01fafc3"
+      sha256 "bb97540e2c12c273a25b76047a4ccc83657a47d087a480037019a75766a98581"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/baoulo/sastri/releases/download/v#{version}/sastri-v#{version}-linux-aarch64.tar.gz"
-      sha256 "cd9da69b1b46e0b9a6bdbe61fd4acd38844b8e493f4191bc73e4be518b506151"
+      sha256 "f436f7e5267f6649050eafac6140d59fb8e37a3f72c1ef79fa9acd0f5fe84a9c"
     end
     on_intel do
       url "https://github.com/baoulo/sastri/releases/download/v#{version}/sastri-v#{version}-linux-x86_64.tar.gz"
-      sha256 "cae0ceb96f0e774c2956dd7bf2c47ff6fcd520e3729f6cb7baf2d00767b4792d"
+      sha256 "80fd81f1b10b2c58810702c5e68b94a277d47f2e3cf73c0bd0915cdb112dba8a"
     end
   end
 
